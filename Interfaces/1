@@ -1,0 +1,4 @@
+MyInterfaceImpl.java:13: reference to hello is ambiguous, both variable hello in MyInterface and variable hello in MyOtherInterface match
+	System.out.println("hello="+hello);
+	                            ^
+1 error
