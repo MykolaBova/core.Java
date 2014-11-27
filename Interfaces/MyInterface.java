@@ -1,4 +1,23 @@
-public interface MyInterface {
+
+/*
+MyInterface.java:2: modifier private not allowed here
+private interface MyInterface {
+        ^
+1 error
+*/
+//private interface MyInterface {
+
+/*
+MyInterface.java:13: modifier protected not allowed here
+protected interface MyInterface {
+          ^
+1 error
+*/
+//protected interface MyInterface {
+
+interface MyInterface {
+
+//public interface MyInterface {
 
     public String hello = "Hello";
 

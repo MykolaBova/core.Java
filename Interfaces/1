@@ -1,4 +1,4 @@
-MyInterface.java:5: modifier private not allowed here
-    private String privateHello = "Hello";
-                   ^
+MyInterface.java:13: modifier protected not allowed here
+protected interface MyInterface {
+          ^
 1 error
