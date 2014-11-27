@@ -27,6 +27,18 @@ MyInterfaceImpl.java:13: reference to hello is ambiguous, both variable hello in
 	System.out.println("MyInterface.hello="+MyInterface.hello);
 	System.out.println("MyOtherInterface.hello="+MyOtherInterface.hello);
 
+/*
+MyInterfaceImpl.java:31: reference to hello is ambiguous, both variable hello in MyInterface and variable hello in MyOtherInterface match
+	System.out.println("mi.hello="+mi.hello);		
+	                                 ^
+1 error
+*/
+//	MyInterfaceImpl mi = new MyInterfaceImpl();
+//	System.out.println("mi.hello="+mi.hello);		
+
+	MyInterfaceImpl mi = new MyInterfaceImpl();
+	System.out.println("MyOtherInterface.hello="+MyOtherInterface.hello);
+
     }
 
 }
