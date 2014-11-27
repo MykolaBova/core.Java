@@ -19,7 +19,8 @@ interface MyInterface {
 
 //public interface MyInterface {
 
-    public String hello = "Hello";
+     //public String hello = "Hello";
+     String hello = "Hello";
 
 /*
 MyInterface.java:5: modifier private not allowed here
